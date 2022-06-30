@@ -1,0 +1,9 @@
+Flask==2.0.1
+Flask-SQLAlchemy==2.5.1
+homebrew==0.2.5
+iniconfig==1.1.1
+itsdangerous==2.0.1
+Jinja2==3.0.1
+SQLAlchemy==1.4.32
+urllib3==1.26.9
+psycopg2==2.9.3
