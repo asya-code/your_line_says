@@ -19,11 +19,11 @@ def main_page():
 def homepage():
     authors = crud.get_all_authors()
     return render_template("homepage.html", authors=authors)
-
+'''
 @app.route("/passage")
 def passage():
     return passage
-
+'''
 @app.route("/random")
 def random_quote():
     quote = crud.get_random_quote()

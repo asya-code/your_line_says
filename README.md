@@ -44,35 +44,24 @@ You'r line says... is a cute little application which gives you inspiring citati
 ### Built With
 
 Backend is powered by Python with Flask web framework and SQLAlchemy as its ORM, PostgreSQL for database. The front-end is written in HTML, Jinja and Javascript. Bootstrap and css were used to style the app.
-<br>
-
-<img src="static/images/diagram.png" title="diagram" width="100%"> 
-<br>
-
-
-## Features
-<p>
-Unregistered guests can see the most popular recipes, browse all recipes and search particular ones by cuisine/diet/recipe name or ingredient.  After search button is pressed, request is send into my flask server which picks corresponding recipes from the database and sends them to the search results page.
 <p>
 <img src="static/images/code.png" title="code snippet" width="100%"> 
 
 <p>
-Logged in users can add their own recipes with my “add new recipe” feature, that support multiple ingredients and instructions input and images attachment. Images are stored via Cloudinary API.  These recipes are private by default user can choose to publish it to the website too. On the backend Flasks creates a recipe and stores it in the database. 
-</p>
-<br>
 
-<img src="static/images/add_new_recipe_typing.png" title="Add new recipe typing" width="100%">
-
-<br>
+## Features
 <p>
-When recipe was successfully submitted, user will be redirected to this recipe page immediately. Users also can add recipes to their favorites, I’ve used Javascript to implement this without reloading the page. Every favorite recipe can be modified according to user’s preferences, the amount of recipe variations is unlimited.
-</p>
+Guests can enter their favorite author's name in the search field to get his/her random citation.
 
 <p>
-Another feature of my app is recipe recommendations based on user’s preferences.
+<img src="static/images/search_author.png" title="search by author" width="100%"> 
+
+<p>
+Or give the choice to the app and get absolutely random citation! 
 </p>
 <br>
-<img src="static/images/recommendations.png" title="Recommendations" width="100%">
+
+<img src="static/images/random.png" title="random citation" width="100%">
 
 
 ## Getting Started
@@ -81,7 +70,7 @@ Another feature of my app is recipe recommendations based on user’s preference
 
 Retrieve an entire repository from a hosted location via URL
 <br>
-<p> &nbsp <b> git clone https://github.com/asya-code/EatThis.git </b> </p>
+<p> &nbsp <b> git clone https://github.com/asya-code/your_line_says.git </b> </p>
 
 You’d then create a virtual environment:
 
@@ -112,30 +101,14 @@ Once you’ve set up your virtual environment, activated it, and installed Flask
 
 ## Roadmap
 
-Project starts on 03.14.2022, ends on Steps:
+Project started on 06.14.2022, ended on 06.18.2022
+
+Steps:
 
 MVP
-- Users can create a profile and log in
-- Users can Store their own recipes - ingredients and steps, pictures (cloudinary API)
-- Users can save favorite recipes
+- Users can search for the citation by their favorite author
 
 2.0
-- Users can look for a new recipes by:
-    Name
-    Cousine
-    Ingredients
-- Recommendations available based on:
-    Most used recipes
-    Favorite cousine
-    Trending
+- Users can get random citation chosen by the app's algorithm
 
-3.0
-- Long term meal planning
-- Meal Planning recommendations and suggestions
-- Recipes recalculations according to a family/group size
-
-Nice-to-haves
-- Dietary adjustment to whole MPV
-- Calories/nutritions calculator based recommendations
-
-Main data will come from the static database, working on how to implement dynamic update of the database from online sources
+Main data is coming from the static database.
