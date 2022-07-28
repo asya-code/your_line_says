@@ -7,7 +7,7 @@ class Quote(db.Model):
     __tablename__ = "quotes"
 
     quote_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
-    text = db.Column(db.String(300),  nullable=False)
+    text = db.Column(db.String(),  nullable=False)
     author = db.Column(db.String(75), nullable=False)
    
     def __repr__(self):
