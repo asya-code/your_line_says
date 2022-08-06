@@ -31,7 +31,7 @@
 
 ## About
 <p>
-You'r line says... is a cute little application which gives you inspiring citations by your favorite authors and offers it's own sugested citations.
+Your line says... is a cute little application which gives you inspiring citations by your favorite authors and offers its own suggested citations.
 </p>
 
 <br>
